@@ -1,6 +1,7 @@
 const express = require("express");
 require("dotenv").config();
 const userSchema = require("./models/user");
+const adminSchema = require("./models/restaurantAdmin")
 const app = express();
 
 app.use(express.json());

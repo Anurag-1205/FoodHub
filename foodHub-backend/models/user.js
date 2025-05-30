@@ -6,7 +6,6 @@ mongoose.connect(process.env.MONGODB_URI, console.log("MongoDb Connected!"));
 const userSchema = mongoose.Schema({
   name: String,
   email: String,
-  contact: Number,
   password: String,
   address: String,
 });
